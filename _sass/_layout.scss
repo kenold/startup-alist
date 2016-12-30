@@ -308,19 +308,6 @@ Post List
     }
 }
 
-.related {
-    padding-top: 20px;
-}
-.related li {
-    list-style: none;
-}
-.related li .post-meta {
-    font-size: 15px;
-}
-.related a:link, .related a:hover {
-    text-decoration: none;
-}
-
 // PAGINATION
 .pagination {
     border-top: 1px solid #eee;
@@ -354,4 +341,46 @@ span.arrow {
     margin-bottom: 20px; }
 
 .post-title .person-name {
-    color: #F43870; }
+    color: #F43870;
+}
+
+/* Bottom Sections */
+
+.related {
+    padding-top: 20px;
+}
+.related li {
+    list-style: none;
+}
+.related li .post-meta {
+    font-size: 15px;
+}
+.related a:link, .related a:hover {
+    text-decoration: none;
+}
+
+.awards {
+    padding-top: 20px;
+}
+.awards li {
+    list-style: none;
+}
+.awards li .post-meta {
+    font-size: 15px;
+}
+.awards a:link, .awards a:hover {
+    text-decoration: none;
+}
+
+.interviews {
+    padding-top: 20px;
+}
+.interviews li {
+    list-style: none;
+}
+.interviews li .post-meta {
+    font-size: 15px;
+}
+.interviews a:link, .interviews a:hover {
+    text-decoration: none;
+}
