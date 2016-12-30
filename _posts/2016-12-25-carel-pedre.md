@@ -8,7 +8,7 @@ vimeo_id:
 sc_id:
 categories:
   - Media
-tags: ["Haitian Host", "Carel Haitian", "Carel Pedre Chokarella"]
+tags: ["Haitian Host", "Carel Haiti", "Carel Pedre Chokarella"]
 photo_path: /assets/images/people/carel-pedre.jpg
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem blanditiis, suscipit accusamus, voluptates repellat quibusdam labore? Voluptatem debitis.
