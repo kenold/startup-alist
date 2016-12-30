@@ -30,9 +30,11 @@ layout: default
   <div class="tags">
   <i class="fa fa-tag"></i> Tags:
     {% for tags in page.tags %}
-      {{ tags }},
+      {{ tags  | downcase }},
     {% endfor %}
-    {{ page.person | downcase }}
+    {{ page.person | downcase }}, 
+    {% assign person = site.people | where: "full_name", page.person | first %}
+    {{ person.company | downcase }}
 </div>
 
   <div class="related">
