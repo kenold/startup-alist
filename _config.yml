@@ -30,6 +30,12 @@ collections:
   people:
       output: true;
       permalink: /person/:path/
+defaults:
+  - scope:
+      path: ''
+      type: 'people'
+    values:
+      layout: 'post'
 
 # Pagination
 gems: [jekyll-paginate]
