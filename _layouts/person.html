@@ -5,7 +5,11 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.job_title }} at {{ page.company }} - {{ page.place_origin }} </p>
+    <p class="post-meta">{{ page.job_title }} at {{ page.company }}
+        from {{ page.place_origin }} |
+        <a href="https://twitter.com/{{ page.twitter }}">Twitter</a> |
+        <a href="https://twitter.com/{{ page.facebook }}">Facebook</a>
+    </p>
   </header>
 
   <!-- Beginning Twitter sharing Large button -->
@@ -46,9 +50,9 @@ layout: default
 
   <div class="related">
     <h2>Related</h2>
-    {% for post in site.related_posts limit:3 %}
-      <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}
-       &nbsp; <span class="post-meta">{{ post.date | date: "%B %d, %Y" }}</span></a>
+    {% for person in site.related_people limit:3 %}
+      <li><a href="{{ person.url }}" title="{{ person.full_name }}">{{ person.full_name }}
+       &nbsp; <span class="post-meta">{{ person.company }}</span></a>
     {% endfor %}
   </div>
 
