@@ -10,6 +10,7 @@ twitter: carel-pedre
 facebook: carel-pedre
 website: carelpedre.com
 image: /assets/images/people/carel-pedre.jpg
+order: 1
 ---
 **Biography**
 
