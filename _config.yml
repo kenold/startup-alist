@@ -1,0 +1,44 @@
+# Setup
+title: Startup Alist
+tagline: 'Get to know your favorite entrepreneurs'
+description: 'Startup a list, a web project for startup entrepreneurs. Interviews with your favorite entrepreneurs all around the world.'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+author:
+  name: 'Kenold Beauplan'
+  url: https://twitter.com/kenoldb
+
+# Build settings
+markdown: kramdown
+permalink: ":title/"
+gems:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-timeago
+  - jekyll-mentions
+
+jekyll_timeago:
+  depth: 1
+jekyll-mentions:
+  base_url: https://twitter.com
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+collections:
+  people:
+      output: true;
+      permalink: /person/:path/
+
+# Pagination
+gems: [jekyll-paginate]
+paginate: 10
+paginate_path: "blog/page/:num/"
+
+# Custom vars
+version: 2.1.0
+
+# Minification
+sass:
+  style: compressed
