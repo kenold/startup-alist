@@ -1,11 +1,11 @@
 ---
-fname: "Carel"
-lname: "Pedre"
-full_name: "Carel Pedre"
+fname: Carel
+lname: Pedre
+full_name: Carel Pedre
 company: Chokarella
 job_title: Radio/TV Host
 sex: M
-place_origin: "Port-au-Prince"
+place_origin: Port-au-Prince
 twitter: carelpedre
 facebook: carel-pedre
 website: http://www.carelpedre.com

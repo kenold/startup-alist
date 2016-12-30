@@ -1,11 +1,11 @@
 ---
-fname: "Jean-Edouard"
-lname: "Gustave"
-full_name: "Jean-Edouard Gustave"
+fname: Jean-Edouard
+lname: Gustave
+full_name: Jean-Edouard Gustave
 company: Antean Studios
 job_title: CEO, Designer
 sex: M
-place_origin: "Jacmel"
+place_origin: Jacmel
 twitter: jeangustavee
 facebook: jegustave
 website: http://www.anteanstudios.com
