@@ -28,6 +28,27 @@ layout: default
   <!-- End of Twitter sharing button -->
 
   <hr>
+  <div class="question">
+        <h2>{{ page.full_name }} Interviews</h2>
+
+        <ul class="listing">
+            {% assign interviews = site.posts | where: "person", 'page.full_name' %}
+            {% for interview in interviews %}
+                <li>{{ interview.type }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    {% if page.awards.size > 0 %}
+        <div class="related">
+            <h2>Awards</h2>
+            <ul>
+                {% for award in page.awards %}
+                    <li>{{ award.year }} - {{ award.category }} @ {{ award.org }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
 
   <div class="question">
     <h2>More info about {{ page.full_name }}</h2>
@@ -52,16 +73,5 @@ layout: default
     }(document, "script", "twitter-wjs"));
     </script>
   </div>
-
-    {% if page.awards.size > 0 %}
-        <div class="related">
-            <h2>Awards</h2>
-            <ul>
-                {% for award in page.awards %}
-                    <li>{{ award.year }} - {{ award.category }} @ {{ award.org }}</li>
-                {% endfor %}
-            </ul>
-        </div>
-    {% endif %}
 
 </div>
