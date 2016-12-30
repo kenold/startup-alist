@@ -18,14 +18,25 @@ layout: default
   </a>
   <!-- End of Twitter sharing button -->
 
+  <div class="featured-image">
+      <img src="{{ page.photo_path }}" alt="{{ page.full_name }} photo from {{ page.company }}">
+  </div>
+
   <article class="post-content">
     {{ content }}
   </article>
 
   <hr>
+  <div class="tags">
+  <i class="fa fa-tag"></i> Tags:
+    {% for tags in page.tags %}
+      {{ tags }},
+    {% endfor %}
+    {{ page.person | downcase }}
+</div>
 
   <div class="related">
-    <h2>Related</h2>
+    <h2>Related Interviews</h2>
     {% for post in site.related_posts limit:3 %}
       <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}
        &nbsp; <span class="post-meta">{{ post.date | date: "%B %d, %Y" }}</span></a>
