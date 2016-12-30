@@ -10,6 +10,13 @@ twitter: carelpedre
 facebook: carel-pedre
 website: http://www.carelpedre.com
 photo_path: /assets/images/people/carel-pedre.jpg
+awards:
+  - org: The Shorty Awards
+    category: Humanitarian
+    year: 2012
+  - org: Clear Channel
+    category: Change Maker
+    year: 2010
 order: 1
 ---
 **Biography**
