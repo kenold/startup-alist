@@ -28,6 +28,8 @@ layout: default
   <!-- End of Twitter sharing button -->
 
   <hr>
+
+  <!-- INTERVIEWS -->
   <div class="interviews">
         <h2>{{ page.full_name }} Interviews</h2>
 
@@ -39,6 +41,7 @@ layout: default
         </ul>
     </div>
 
+    <!-- AWARDS -->
     {% if page.awards.size > 0 %}
         <div class="awards">
             <h2>Awards</h2>
@@ -50,6 +53,7 @@ layout: default
         </div>
     {% endif %}
 
+    <!-- DETAILS -->
   <div class="question">
     <h2>More info about {{ page.full_name }}</h2>
     <p>{{ page.full_name }} is from {{ page.place_origin}}.
