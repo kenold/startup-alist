@@ -4,7 +4,8 @@ layout: default
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Interview with <span class="person-name">{{ page.title }}</span></h1>
+      {% assign person = site.people | where: "full_name", page.person | first %}
+    <h1 class="post-title">Interview with <span class="person-name"><a href="{{ person.url }}">{{ page.title }}</a></span></h1>
     <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}</p>
   </header>
 
