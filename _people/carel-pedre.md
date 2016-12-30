@@ -5,7 +5,7 @@ full_name: "Carel Pedre"
 company: Chokarella
 job_title: Radio/TV Host
 sex: M
-place_origin: Haiti
+place_origin: "Port-au-Prince, Haiti"
 twitter: carel-pedre
 facebook: carel-pedre
 website: carelpedre.com
