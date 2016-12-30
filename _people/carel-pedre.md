@@ -9,7 +9,7 @@ place_origin: "Port-au-Prince"
 twitter: carelpedre
 facebook: carel-pedre
 website: http://www.carelpedre.com
-image: /assets/images/people/carel-pedre.jpg
+photo_path: /assets/images/people/carel-pedre.jpg
 order: 1
 ---
 **Biography**

@@ -9,7 +9,7 @@ place_origin: "Jacmel"
 twitter: jeangustavee
 facebook: jegustave
 website: http://www.anteanstudios.com
-image: /assets/images/people/jean-edouard-gustave.jpg
+photo_path: /assets/images/people/jean-edouard-gustave.jpg
 order: 2
 ---
 **Biography**
