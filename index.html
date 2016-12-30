@@ -16,6 +16,9 @@ layout: default
     <ul id="post-list">
       {% for person in site.people %}
         <li>
+            <a href="{{ person.url | prepend: site.baseurl }}">
+            <aside class="dates">{{ person.company }}</aside>
+            </a>
           <a href="{{ person.url | prepend: site.baseurl }}">{{ person.full_name }}</a>
           <h2>{{ person.job_title }}</h2></a>
           <!-- <p>
