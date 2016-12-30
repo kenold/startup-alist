@@ -34,7 +34,7 @@ layout: default
         <ul class="listing">
             {% assign interviews = site.posts | where: "person", page.full_name %}
             {% for interview in interviews %}
-                <li>{{ interview.date | date: "%b %-d" }}</li>
+                <li><a href="{{ interview.url }}">{{ interview.date | date: '%B %d, %Y' }}: {{ interview.type }} interview</a></li>
             {% endfor %}
         </ul>
     </div>
