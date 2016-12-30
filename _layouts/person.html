@@ -53,13 +53,15 @@ layout: default
     </script>
   </div>
 
-  <div class="related">
-    <h2>Awards</h2>
-        <ul>
-            {% for award in page.awards %}
-                <li>{{ award.year }} - {{ award.category }} @ {{ award.org }}</li>
-            {% endfor %}
-        </ul>
-    </div>
+    {% if page.awards.size > 0 %}
+        <div class="related">
+            <h2>Awards</h2>
+            <ul>
+                {% for award in page.awards %}
+                    <li>{{ award.year }} - {{ award.category }} @ {{ award.org }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
 
 </div>
