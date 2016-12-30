@@ -343,6 +343,7 @@ span.arrow {
     font-size: 17px;
 }
 
+/* Added by Ken */
 .home {
     h1.people { color: #F43870; }
     h1.interviews { color: #F7813C; }
@@ -350,5 +351,7 @@ span.arrow {
 
 .featured-image {
     border: 1px solid #BBB;
-    margin-bottom: 20px;
-}
+    margin-bottom: 20px; }
+
+.post-title .person-name {
+    color: #F43870; }
