@@ -44,7 +44,7 @@ layout: default
     <!-- AWARDS -->
     {% if page.awards.size > 0 %}
         <div class="awards">
-            <h2>Awards</h2>
+            <h2>{{page.full_name }} Awards</h2>
             <ul>
                 {% for award in page.awards %}
                     <li>{{ award.year }} - {{ award.category }} @ {{ award.org }}</li>
