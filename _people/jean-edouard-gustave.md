@@ -6,10 +6,11 @@ company: Antean Studios
 job_title: CEO, Designer
 sex: M
 place_origin: "Jacmel"
-twitter: jegustave
+twitter: jeangustavee
 facebook: jegustave
 website: anteanstudios.com
 image: /assets/images/people/jean-edouard-gustave.jpg
+order: 2
 ---
 **Biography**
 
