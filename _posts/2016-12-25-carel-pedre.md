@@ -1,16 +1,14 @@
 ---
 layout: post
 person: Carel Pedre
-type: text
+type: Text
 excerpt: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem blanditiis, suscipit accusamus, voluptates.
 youtube_id:
 vimeo_id:
 sc_id:
 categories:
   - Media
-tags:
-  - haitian host
-  - carel haitian
+tags: ["Haitian Host", "Carel Haitian", "Carel Pedre Chokarella"]
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem blanditiis, suscipit accusamus, voluptates repellat quibusdam labore? Voluptatem debitis.
 
